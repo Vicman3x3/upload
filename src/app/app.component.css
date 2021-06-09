@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-flow: wrap;
+    background-color:slategrey;
+    justify-content: center;
+    padding: 20px;
+}
+
+.uploads{
+    background-color: snow;
+    width: 90%;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}

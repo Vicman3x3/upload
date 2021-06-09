@@ -1,0 +1,18 @@
+<div class="uploadDocument"> 
+    <div class="parte parteA"><label for="#container" class="labelUpload"> Documento </label></div>
+    <div class="parte parteB">
+        <ngx-dropzone #container class="container" (change)="onSelect($event)" [multiple]="false">
+            <ngx-dropzone-label class="uploadLabel">Añadir Archivo</ngx-dropzone-label>
+            <ngx-dropzone-preview class="uploadPreview" *ngFor="let f of files" [removable]="true"
+                (removed)="onRemove(f)" >
+                <ngx-dropzone-label class="uploadPreview2">{{ f.name }} </ngx-dropzone-label>
+                
+            </ngx-dropzone-preview>
+        </ngx-dropzone>
+        <div class="visibility">
+            <button class="btn-V">
+                <span class="material-icons"> visibility </span>
+            </button>
+        </div>
+    </div>
+</div>

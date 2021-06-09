@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+  }
+  .uploadDocument {
+    flex-flow: column;
+    width: 300px;
+    height: 50px;
+    margin: 20px; 
+  }
+  .parteA{
+    font-size: large;
+    font-weight: bold;
+  }
+  .parteB{
+    background-color: #bdbdbd;
+    border-radius: 15px;
+    max-height: 100%;
+  }
+  
+  .container {
+    background-color:transparent;
+    border: none;
+    width: 90%;
+    height: 100%;
+  }
+  
+  ngx-dropzone-label{
+    /* background-color: teal; */
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+  
+  .visibility {
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .btn-V{
+    padding: 3px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+  }
+  
